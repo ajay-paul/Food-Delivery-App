@@ -9,8 +9,7 @@ The creation of the Food Delivery App involved the utilization of [**React Nativ
 <img src="https://user-images.githubusercontent.com/72196976/219985545-e20f5253-40d6-4b00-b727-c94033335fed.png" alt="SignUp" style="width:250px;">
 <img src="https://user-images.githubusercontent.com/72196976/219985567-75d7bb28-4ca3-49f1-bd84-7bc23ce3f8b7.png" alt="Register Phone" style="width:250px;">
 <img src="https://user-images.githubusercontent.com/72196976/219985581-16333398-c04d-4349-9be3-b460fb6bb6e2.png" alt="Register Phone_CountryList" style="width:250px;">
-<img src="https://user-images.githubusercontent.com/72196976/219985581-16333398-c04d-4349-9be3-b460fb6bb6e2.png" alt="Register Phone_CountryList" style="width:250px;">
-
+<img src="https://user-images.githubusercontent.com/72196976/219985586-7da1415b-4c04-4356-8d5f-cccc9fbae6b8.png" alt="OTP" style="width:250px;">
 
 ## Icon Libraries
 
