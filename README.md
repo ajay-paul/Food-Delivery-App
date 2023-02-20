@@ -5,7 +5,12 @@ The creation of the Food Delivery App involved the utilization of [**React Nativ
 ## Screen Shots From The APP
 
 <img src="https://user-images.githubusercontent.com/72196976/219984281-9416e9fb-f731-4ecf-bd9f-fb5a1041ef14.png" alt="Splash Screen" width="250" /> <img src="https://user-images.githubusercontent.com/72196976/219984311-b202c3fd-4c37-43ab-98c8-c6c8730c2895.png" alt="Home1" width="250"/> <img src="https://user-images.githubusercontent.com/72196976/219984318-e6ec8632-55d3-4365-a007-e9da18b59639.png" alt="Home3" width="250" /> <img src="https://user-images.githubusercontent.com/72196976/219984326-9fa470ec-ca24-48dd-a191-ef002d9d7a60.png" alt="SignIn"  width="250" />
-
+<img src="https://user-images.githubusercontent.com/72196976/219985511-5e15bbaa-fd90-4acb-a6ba-edda352c936f.png" alt="Password Shown Button" style="width:250px;">
+![ToggleButton](https://user-images.githubusercontent.com/72196976/219985522-46b73422-6a06-4897-b862-391a5020f1a4.png)
+![SignUp](https://user-images.githubusercontent.com/72196976/219985545-e20f5253-40d6-4b00-b727-c94033335fed.png)
+![Register Phone](https://user-images.githubusercontent.com/72196976/219985567-75d7bb28-4ca3-49f1-bd84-7bc23ce3f8b7.png)
+![Register Phone_CountryList](https://user-images.githubusercontent.com/72196976/219985581-16333398-c04d-4349-9be3-b460fb6bb6e2.png)
+![OTP](https://user-images.githubusercontent.com/72196976/219985586-7da1415b-4c04-4356-8d5f-cccc9fbae6b8.png)
 
 
 ## Icon Libraries
