@@ -20,3 +20,5 @@ cd foodro_backend
 npm install
 ```
 - MongoDB Connection
+- Database Setup (MongoDB)
+- 
