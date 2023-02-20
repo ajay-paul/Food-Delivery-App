@@ -4,7 +4,7 @@ The creation of the Food Delivery App involved the utilization of [**React Nativ
 
 ## Screen Shots From The APP
 
-![Splash Screen](https://user-images.githubusercontent.com/72196976/219984281-9416e9fb-f731-4ecf-bd9f-fb5a1041ef14.png | width=500)
+![Splash Screen](https://user-images.githubusercontent.com/72196976/219984281-9416e9fb-f731-4ecf-bd9f-fb5a1041ef14.png){: width="500"}
 ![Home1](https://user-images.githubusercontent.com/72196976/219984311-b202c3fd-4c37-43ab-98c8-c6c8730c2895.png)
 ![Home3](https://user-images.githubusercontent.com/72196976/219984318-e6ec8632-55d3-4365-a007-e9da18b59639.png)
 ![SignIn](https://user-images.githubusercontent.com/72196976/219984326-9fa470ec-ca24-48dd-a191-ef002d9d7a60.png)
