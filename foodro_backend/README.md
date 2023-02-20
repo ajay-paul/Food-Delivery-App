@@ -19,6 +19,7 @@ cd foodro_backend
 
 npm install
 ```
-- MongoDB Connection
+- Express Generator
 - Database Setup (MongoDB)
-- 
+- MongoDB Connection
+- Postman
