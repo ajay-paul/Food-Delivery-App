@@ -10,3 +10,12 @@ Backend system for [**FoodDro**](https://github.com/ajay-paul/Food-Delivery-App)
 - [Bcrypt](https://github.com/kelektiv/node.bcrypt.js "Library for password hashing")
 
 ## Setup instructions
+
+### 1. Install all dependencies
+
+```sh
+# navigate to app directory
+cd food_delivery_app_backend
+
+npm install
+```
