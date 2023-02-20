@@ -15,7 +15,7 @@ Backend system for [**FoodDro**](https://github.com/ajay-paul/Food-Delivery-App)
 
 ```sh
 # navigate to app directory
-cd food_delivery_app_backend
+cd foodro_backend
 
 npm install
 ```
