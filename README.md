@@ -10,6 +10,15 @@ The creation of the Food Delivery App involved the utilization of [**React Nativ
 <img src="https://user-images.githubusercontent.com/72196976/219985567-75d7bb28-4ca3-49f1-bd84-7bc23ce3f8b7.png" alt="Register Phone" style="width:250px;">
 <img src="https://user-images.githubusercontent.com/72196976/219985581-16333398-c04d-4349-9be3-b460fb6bb6e2.png" alt="Register Phone_CountryList" style="width:250px;">
 <img src="https://user-images.githubusercontent.com/72196976/219985586-7da1415b-4c04-4356-8d5f-cccc9fbae6b8.png" alt="OTP" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445338-7ec7681a-ad6a-4d48-be82-42b0e5bdae69.png" alt="Screenshot_1677455335" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445385-071a581c-59d8-45f8-981a-c3a337ca2509.png" alt="Screenshot_1677455098" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445592-1ad59d0e-2240-4d32-abaf-643298d352ec.png" alt="Screenshot_1677456211" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445640-ea23b977-92b3-49df-a958-6472062b0e95.png" alt="Screenshot_1677455225" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445643-1cdb3dbc-9e55-4c7a-84d6-bb524ed4a402.png" alt="Screenshot_1677455237" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221445844-95362956-fb62-421a-a13c-1789d0781889.png" alt="Screenshot_1677456456" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221446324-924851a0-24c5-4c8f-b4b9-0f3f935042c9.png" alt="Screenshot_1677455402" style="width:250px;">
+<img src="https://user-images.githubusercontent.com/72196976/221446180-49e362bb-ab20-4ff7-a7db-8056aaca2225.png" alt="Screenshot_1677456741" style="width:250px;">
+
 
 ## Icon Libraries
 
