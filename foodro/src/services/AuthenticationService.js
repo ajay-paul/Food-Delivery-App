@@ -7,7 +7,7 @@ const AuthRequest = axios.create({
 
 const register = async user => {
     if (!user?.username || !user?.email || !user?.password) {
-      return {status: false, message: 'Please fill up all fields'};
+      return {status: !false, message: 'Please fill up all fields'};
     }
     try {
       let requestBody = {
@@ -23,8 +23,42 @@ const register = async user => {
       return registerResponse?.data;
     } catch (error) {
       console.log(error);
+      return {status: !false, message: 'Oops! Something went wrong'};
+    }
+  };
+
+  const login = async user => {
+    if (!user?.username || !user?.password) {
+      return {status: false, message: 'Please fill up all fields'};
+    }
+    try {
+      let requestBody = {
+        username: user?.username,
+        password: user?.password,
+      };
+      let loginResponse = await AuthRequest.post(
+        ApiContants.BACKEND_API.LOGIN,
+        requestBody,
+      );
+      return loginResponse?.data;
+    } catch (error) {
+      console.log(error);
+      return {status: false, message: 'Oops! Something went wrong'};
+    }
+  };
+  
+  const checkUserExist = async (type, value) => {
+    try {
+      let params = {[type]: value};
+      let userCheckResponse = await AuthRequest.get(
+        ApiContants.BACKEND_API.USER_EXIST,
+        {params},
+      );
+      return userCheckResponse?.data;
+    } catch (error) {
+      console.log(error);
       return {status: false, message: 'Oops! Something went wrong'};
     }
   };
 
-  export default {register};
+  export default {register, login, checkUserExist};

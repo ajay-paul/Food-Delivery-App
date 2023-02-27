@@ -10,14 +10,36 @@ import {
 } from 'react-native';
 import {Separator, ToggleButton} from '../components';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Feather from 'react-native-vector-icons/Feather';
 import {colors, Fonts, Images} from '../constants';
 import {Display} from '../utils';
+import { AuthenticationService, StorageService } from '../services';
+import LottieView from 'lottie-react-native';
 
 const SigninScreen = ({navigation}) => {
   const [isPasswordShow, setIsPasswordShow] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const signIn = async () => {
+    setIsLoading(true);
+    let user = {
+      username,
+      password,
+    };
+    AuthenticationService.login(user).then(response => {
+      setIsLoading(false);
+      if (!response?.status) {
+        console.log(response);
+        setErrorMessage(response?.message);
+      } else{
+        console.log(response);
+        setErrorMessage('');
+      }
+    });
+  };
+
   return (
     <View style={styles.container}>
       <StatusBar
@@ -82,6 +104,7 @@ const SigninScreen = ({navigation}) => {
           />
         </View>
       </View>
+      <Text style={styles.errorMessage}>{errorMessage}</Text>
       <View style={styles.forgotPasswordContainer}>
         <View style={styles.toggleContainer}>
           <ToggleButton size={0.5} />
@@ -92,8 +115,15 @@ const SigninScreen = ({navigation}) => {
           onPress={() => navigation.navigate('ForgotPassword')}>
           Forgot Password</Text>
       </View>
-      <TouchableOpacity style={styles.signinButton}>
+      <TouchableOpacity
+        style={styles.signinButton}
+        onPress={() => signIn()}
+        activeOpacity={0.8}>
+          {isLoading ? (
+          <LottieView source={Images.LOADING} autoPlay />
+        ) : (
           <Text style={styles.signinButtonText}>Sign In</Text>
+        )}
       </TouchableOpacity>
       <View style={styles.signupContainer}>
         <Text style={styles.accountText}>Don't have an account?</Text>
@@ -289,6 +319,15 @@ const styles = StyleSheet.create({
   toggleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  errorMessage: {
+    fontSize: 10,
+    lineHeight: 10 * 1.4,
+    color: colors.DEFAULT_RED,
+    fontFamily: Fonts.POPPINS_MEDIUM,
+    marginHorizontal: 20,
+    marginTop: 3,
+    marginBottom: 10,
   },
 });
 

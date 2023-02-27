@@ -11,12 +11,6 @@ const COUNTRY_FLAG = {
     BASE_API_URL: `${BACKEND_BASE_URL}/api`,
     REGISTER: '/register',
     LOGIN: '/login',
-    //USER_EXIST: '/user-exist',
-    //USER: '/user',
-    //REFRESH_TOKEN: '/refresh-token',
-    //RESTAURANT: '/restaurant',
-    //CART: '/cart',
-    //FOOD: '/food',
-    //BOOKMARK: '/bookmark',
+    USER_EXIST: '/user-exist',
   };
   export default{COUNTRY_FLAG, BACKEND_API}
