@@ -1,6 +1,6 @@
 # Food Delivery App
  
-The creation of the Food Delivery App involved the utilization of [**React Native**](https://reactnative.dev 'Cross Platform Mobile Application Development Framework'), along with the assistance of a handful of other widely-used third-party libraries such as [**React Navigation**](https://reactnavigation.org 'For Screen Navigations') and [**Axios**](https://axios-http.com 'For HTTP Requests').
+Development of the Food Delivery App involved the utilization of [**React Native**](https://reactnative.dev 'Cross Platform Mobile Application Development Framework'), along with the assistance of a handful of other widely-used third-party libraries such as [**React Navigation**](https://reactnavigation.org 'For Screen Navigations') and [**Axios**](https://axios-http.com 'For HTTP Requests').
 
 ## Screen Shots From The APP
 
