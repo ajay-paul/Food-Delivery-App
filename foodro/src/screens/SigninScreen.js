@@ -14,8 +14,10 @@ import {colors, Fonts, Images} from '../constants';
 import {Display} from '../utils';
 import { AuthenticationService, StorageService } from '../services';
 import LottieView from 'lottie-react-native';
+import {connect} from 'react-redux';
+import { GeneralAction } from '../actions';
 
-const SigninScreen = ({navigation}) => {
+const SigninScreen = ({navigation, setToken}) => {
   const [isPasswordShow, setIsPasswordShow] = useState(false);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -30,6 +32,7 @@ const SigninScreen = ({navigation}) => {
     };
     AuthenticationService.login(user).then(response => {
       setIsLoading(false);
+      setToken(response?.data)
       if (!response?.status) {
         console.log(response);
         setErrorMessage(response?.message);
@@ -331,4 +334,10 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SigninScreen;
+const mapDispatchToProps = (dispatch) =>{
+  return{
+    setToken: token => dispatch(GeneralAction.setToken(token)),
+  };
+};
+
+export default  connect(null, mapDispatchToProps)(SigninScreen);
